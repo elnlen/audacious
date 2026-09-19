@@ -1,33 +1,31 @@
 # Audacious
 
-## Overview
+## 概要
+**Audacious**は軽量なオープンソースの音楽プレイヤーで、音質と消費リソースの少なさにフォーカスしています。幅広いファイルフォーマットをサポートし、機能性を拡張するための柔軟なプラグインシステムを提供します。
+## 機能
 
-**Audacious** is a lightweight, open-source audio player focused on high audio
-quality and low resource usage. It supports a wide range of audio formats and
-provides a flexible plugin system for extending functionality.
+* リソース消費が少なく高速で軽量
+* Linux、BSD派生、macOSとWindowsで動作
+* 幅広いファイルフォーマットをサポート
+* プラグインベースのアーキテクチャ
+* 複数のユーザーインターフェース:
+  * GTKインターフェース
+  * Qtインターフェース
+  * Winamp2のスキンを含むwinampインターフェース
+  * Winamp インターフェース、 including support for Winamp 2 skins
+* 高度なプレイリスト管理
+* 内蔵のイコライザー、効果音と視覚化
+* リプレイゲインとギャップレス再生のサポート
+* MPRISと`audtool`でも制御可能
 
-## Features
+## インストール
 
-* Fast and lightweight with low system resource usage
-* Runs on Linux, BSD derivatives, macOS and Windows
-* Wide support for audio formats
-* Plugin-based architecture
-* Multiple user interfaces:
-  * GTK interface
-  * Qt interface
-  * Winamp interface, including support for Winamp 2 skins
-* Advanced playlist management
-* Built-in equalizer, audio effects and visualizations
-* Support for ReplayGain and gapless playback
-* Controllable also via MPRIS and with `audtool`
+### ビルド済みパッケージ
 
-## Installation
+ほとんどのLinuxディストリビューションはそれぞれのパッケージリポジトリでAudaciousを提供しています。
+Windows向けにはインストーラーを用意しています。macOS上では、Audaciousは[Homebrew](https://brew.sh)でインストールできます。
 
-### Prebuilt Packages
-
-Most Linux distributions provide Audacious in their respective package
-repositories. For Windows we offer an installer. On macOS, Audacious can be
-installed using [Homebrew](https://brew.sh).
+AudaciousのFlatpakとSnapのパッケージもありますが、
 
 There are also Flatpak and Snap packages of Audacious, however we do neither
 provide nor support them. So if you have an issue with these packages, make sure
